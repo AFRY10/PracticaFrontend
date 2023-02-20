@@ -1,0 +1,33 @@
+nav{
+    background: black;
+}
+li{
+    color: white;
+    list-style: none;
+cursor: pointer;
+}
+
+li:hover{
+    color: gold;
+    content: "andres";
+}
+
+div p:nth-child(3n+1){
+    color: blueviolet;
+}
+
+p::first-letter{
+    color: pink;
+}
+
+p::before{
+    content: "👀";
+}
+
+p::after{
+    content: "😍";
+}
+::placeholder{
+    color: blue;
+    text-align: center;
+}

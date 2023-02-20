@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+div {
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background: black;
+    color: aliceblue;
+}
+
+a {
+    background: orange;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+}
+
+button{
+    background-color: turquoise;
+    height: 40px;
+    width: 100px; 
+    border-radius: 15px;
+    border: solid 5px;
+}

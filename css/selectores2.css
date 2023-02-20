@@ -1,0 +1,40 @@
+div li{
+    background: black;
+    color: blueviolet;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    text-align: center;
+    border-color: blueviolet;
+}
+
+p::before {
+    content: "AFRY";
+}
+
+p:hover::before {
+    content: "Andres Felipe Restrepo Yepes";
+}
+
+div p {
+    color: rgb(238, 15, 220) !important
+}
+
+div>div{
+    background: plum;
+}
+div>div>div{
+    background: rgb(174, 160, 221);
+}
+
+div + section{
+    background: lawngreen;
+}
+
+section{
+    color: red;
+}
+
+div p{
+    color: blue;
+}
